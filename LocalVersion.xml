@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <version remark="本地版本号">1.0.0.0</version>
+  <url remark="检查更新地址">http://localhost/xxx/ServerVersion.xml</url>
+  <appName remark="应用程序名称"></appName>
+  <killList remark="更新过程中需要关掉的应用程序名称"></killList>
+</root>
+<!--客户端版本配置xml例子-->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <version remark="最新版本号">2.0.0.0</version>
+  <url remark="最新版本包">http://localhost/iwise/2.0.0.0.zip</url>
+  <requiredUpdate remark="是否必须更新">true</requiredUpdate>
+</root>
+<!--服务端新版本配置xml例子-->
