@@ -76,23 +76,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ErrorMessage.cs">
+    <Compile Include="src\dialog\ErrorMessage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ErrorMessage.Designer.cs">
+    <Compile Include="src\dialog\ErrorMessage.Designer.cs">
       <DependentUpon>ErrorMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="src\main\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="src\main\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="HttpUtils.cs" />
-    <Compile Include="MessagePopup.cs">
+    <Compile Include="src\utils\HttpUtils.cs" />
+    <Compile Include="src\dialog\MessagePopup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MessagePopup.Designer.cs">
+    <Compile Include="src\dialog\MessagePopup.Designer.cs">
       <DependentUpon>MessagePopup.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -102,27 +102,27 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Update.cs" />
-    <Compile Include="UpgradeSucceed.cs">
+    <Compile Include="src\dialog\Update.cs" />
+    <Compile Include="src\dialog\UpgradeSucceed.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpgradeSucceed.Designer.cs">
+    <Compile Include="src\dialog\UpgradeSucceed.Designer.cs">
       <DependentUpon>UpgradeSucceed.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpgradeTips.cs">
+    <Compile Include="src\dialog\UpgradeTips.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpgradeTips.Designer.cs">
+    <Compile Include="src\dialog\UpgradeTips.Designer.cs">
       <DependentUpon>UpgradeTips.cs</DependentUpon>
     </Compile>
-    <Compile Include="ZipHelper.cs" />
-    <EmbeddedResource Include="ErrorMessage.resx">
+    <Compile Include="src\utils\ZipHelper.cs" />
+    <EmbeddedResource Include="src\dialog\ErrorMessage.resx">
       <DependentUpon>ErrorMessage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="src\main\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MessagePopup.resx">
+    <EmbeddedResource Include="src\dialog\MessagePopup.resx">
       <DependentUpon>MessagePopup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -134,10 +134,10 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-HK.resx" />
-    <EmbeddedResource Include="UpgradeSucceed.resx">
+    <EmbeddedResource Include="src\dialog\UpgradeSucceed.resx">
       <DependentUpon>UpgradeSucceed.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpgradeTips.resx">
+    <EmbeddedResource Include="src\dialog\UpgradeTips.resx">
       <DependentUpon>UpgradeTips.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
